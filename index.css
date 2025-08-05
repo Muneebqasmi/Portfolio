@@ -558,6 +558,18 @@ footer a {
     padding: 15px 20px;
   }
   
+
+
+  .certificates_grid {
+  justify-items: center; 
+  grid-template-columns: 1fr;
+  max-width: 300px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
   .full_logo {
     display: none;
   }
@@ -628,8 +640,7 @@ footer a {
 
   .skills_grid,
   .projects_grid,
-  .education_grid,
-  .certificates_grid {
+  .education_grid {
     grid-template-columns: 1fr;
   }
 
