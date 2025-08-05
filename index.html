@@ -11,20 +11,26 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="logo">Muneeb Shahid Qasmi</div>
-    <nav>
-      <ul class="nav_links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<header class="header_container">
+  <!-- Logo -->
+  <div class="logo full_logo">Muneeb Shahid Qasmi</div>
+  <div class="logo short_logo">Muneeb</div>
+
+  <!-- Toggle Button for Mobile -->
+  <div class="menu_icon" onclick="toggleMenu()">☰</div>
+
+  <!-- Navigation -->
+  <nav class="nav_links" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
 
 <!-- Hero Section -->
 <section class="hero" id="home">

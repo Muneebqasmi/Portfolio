@@ -118,3 +118,21 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.3 });
 
 if (skillSection) observer.observe(skillSection);
+
+
+function toggleMenu() {
+  const menu = document.getElementById('mobileMenu');
+  menu.classList.toggle('show');
+}
+
+// Optional: close menu when a link is clicked (for mobile)
+document.querySelectorAll('.nav_links a').forEach(link => {
+  link.addEventListener('click', () => {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.remove('show');
+  });
+});
+
+
+
+
